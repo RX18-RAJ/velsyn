@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './App.css'
 
 function App() {
-  const API_URL = "https://velsyn-backend.onrender.com";
+  const API_URL = "https://velsyn.onrender.com";
   const [message, setMessage] = useState("");
   const [name, setName] = useState("");
 
